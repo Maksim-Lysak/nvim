@@ -1,0 +1,5 @@
+require('settings')
+require('plugins')
+require('keybindings')
+require('plugin-settings')
+require('plugin-keybindings')
