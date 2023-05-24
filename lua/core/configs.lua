@@ -18,7 +18,7 @@ vim.opt.mousefocus = true
 
 -- Line Numbers
 vim.opt.number = true
-vim.opt.relativenumber = true
+-- vim.opt.relativenumber = true
 
 -- Splits
 vim.opt.splitbelow = true
@@ -35,7 +35,7 @@ vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
-vim.opt.smartindent = true
+vim.opt.smartindent = false
 
 -- Fillchars
 vim.opt.fillchars = {
@@ -48,6 +48,3 @@ vim.opt.fillchars = {
 	foldsep = "│",
 	foldclose = "▸",
 }
-
--- vim.cmd([[highlight clear LineNr]])
--- vim.cmd([[highlight clear SignColumn]])

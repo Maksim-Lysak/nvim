@@ -22,6 +22,32 @@ lspconfig.rust_analyzer.setup({
 		},
 	},
 })
+lspconfig.emmet_ls.setup({
+	-- on_attach = on_attach,
+	capabilities = capabilities,
+	filetypes = {
+		"css",
+		"eruby",
+		"html",
+		"javascript",
+		"javascriptreact",
+		"less",
+		"sass",
+		"scss",
+		"svelte",
+		"pug",
+		"typescriptreact",
+		"vue",
+	},
+	init_options = {
+		html = {
+			options = {
+				-- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+				["bem.enabled"] = true,
+			},
+		},
+	},
+})
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
