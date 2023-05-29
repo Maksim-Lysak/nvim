@@ -5,23 +5,24 @@ capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
 local lspconfig = require("lspconfig")
 lspconfig.pyright.setup({})
 lspconfig.tsserver.setup({})
+lspconfig.tailwindcss.setup({})
 lspconfig.prismals.setup({})
 lspconfig.cssls.setup({
 	capabilities = capabilities,
 })
-lspconfig.golangci_lint_ls.setup({})
-lspconfig.rust_analyzer.setup({
-	settings = {
-		["rust-analyzer"] = {
-			diagnostics = {
-				enable = true,
-				experimental = {
-					enable = true,
-				},
-			},
-		},
-	},
-})
+-- lspconfig.golangci_lint_ls.setup({})
+-- lspconfig.rust_analyzer.setup({
+-- 	settings = {
+-- 		["rust-analyzer"] = {
+-- 			diagnostics = {
+-- 				enable = true,
+-- 				experimental = {
+-- 					enable = true,
+-- 				},
+-- 			},
+-- 		},
+-- 	},
+-- })
 lspconfig.emmet_ls.setup({
 	-- on_attach = on_attach,
 	capabilities = capabilities,
