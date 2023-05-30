@@ -35,7 +35,7 @@ vim.keymap.set("n", "\\", ":split<CR>")
 -- Other
 vim.keymap.set("n", "<leader>w", ":w<CR>")
 -- vim.keymap.set('i', '<leader>w', '<Esc>:w<CR>a')
-vim.keymap.set("n", "<leader>q", ":q<CR>")
+-- vim.keymap.set("n", "<leader>q", ":q<CR>")
 vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
 vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
