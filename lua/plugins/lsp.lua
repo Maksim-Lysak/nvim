@@ -6,6 +6,7 @@ local lspconfig = require("lspconfig")
 lspconfig.pyright.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.tailwindcss.setup({})
+lspconfig.html.setup({})
 lspconfig.prismals.setup({})
 lspconfig.cssls.setup({
 	capabilities = capabilities,

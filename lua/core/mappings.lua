@@ -4,11 +4,14 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>e", ":Neotree float reveal<CR>")
 vim.keymap.set("n", "<leader>o", ":Neotree float git_status<CR>")
 
--- Navigation from buffer's
+-- Navigation from buffer"s
 vim.keymap.set("", "gj", ":wincmd j<CR>")
 vim.keymap.set("", "gh", ":wincmd h<CR>")
 vim.keymap.set("", "gk", ":wincmd k<CR>")
 vim.keymap.set("", "gl", ":wincmd l<CR>")
+
+-- Close current buffer
+vim.keymap.set("n", "<leader>q", ":bd<CR>")
 
 -- [[ перевести курсор в конец строки в режиме ввода ]]
 vim.keymap.set("i", "<leader>.", "<Esc>A")
@@ -34,8 +37,7 @@ vim.keymap.set("n", "\\", ":split<CR>")
 
 -- Other
 vim.keymap.set("n", "<leader>w", ":w<CR>")
--- vim.keymap.set('i', '<leader>w', '<Esc>:w<CR>a')
--- vim.keymap.set("n", "<leader>q", ":q<CR>")
+vim.keymap.set("i", "<M-w>", "<Esc>:w<CR>a")
 vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
 vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
