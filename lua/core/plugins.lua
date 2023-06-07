@@ -74,4 +74,5 @@ require("lazy").setup({
 		priority = 1000,
 		opts = {},
 	},
+	{ "lukas-reineke/indent-blankline.nvim" },
 })
