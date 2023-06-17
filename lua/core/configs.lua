@@ -1,5 +1,6 @@
 vim.wo.number = true
 
+vim.opt.showtabline = 0
 vim.g.did_load_filetypes = 1
 vim.g.formatoptions = "qrn1"
 vim.opt.showmode = true
