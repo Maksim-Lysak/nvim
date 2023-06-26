@@ -2,7 +2,8 @@ vim.opt.termguicolors = true
 -- vim.cmd([[colorscheme tokyonight-moon]])
 
 function SetColor(color)
-	color = color or "tokyonight-moon"
+	color = color or "tokyonight-night"
+	-- color = color or "tokyonight-moon"
 	vim.cmd.colorscheme(color)
 
 	-- vim.api.nvim_set_hl(0, "Normal", {bg = "#120E27"})
