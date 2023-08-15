@@ -28,6 +28,7 @@ vim.opt.mousefocus = true
 
 -- Line Numbers
 vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"

@@ -38,7 +38,6 @@ null_ls.setup({
 							return client.name == "null-ls"
 						end,
 					})
-					-- vim.lsp.buf.formatting_sync()
 				end,
 			})
 		end

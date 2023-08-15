@@ -38,7 +38,7 @@ lspconfig.emmet_ls.setup({
 		-- "javascript",
 		-- "javascriptreact",
 		-- "typescriptreact",
-		-- "vue",
+		-- "vue",hl-DiagnosticSignErro
 	},
 	init_options = {
 		html = {
@@ -49,6 +49,9 @@ lspconfig.emmet_ls.setup({
 		},
 	},
 })
+
+-- vim.diagnostic.config({ virtual_text = true })
+-- vim.diagnostic.config({ virtual_text = false })
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
