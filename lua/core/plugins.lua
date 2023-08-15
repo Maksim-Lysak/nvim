@@ -64,6 +64,9 @@ require("lazy").setup({
 		dependencies = { { "nvim-tree/nvim-web-devicons" } },
 	},
 	{ "phaazon/hop.nvim" },
+	{
+		"CRAG666/code_runner.nvim",
+	},
 	{ "hrsh7th/vim-vsnip" },
 	{ "hrsh7th/vim-vsnip-integ" },
 	{
