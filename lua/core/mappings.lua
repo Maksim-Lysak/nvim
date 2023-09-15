@@ -53,4 +53,3 @@ vim.keymap.set("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>")
 
 -- code runner
 vim.keymap.set("n", "<leader>r", ":RunCode<CR>")
-vim.keymap.set("n", "<leader>rf", ":w<CR>:RunFile<CR>")
